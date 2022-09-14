@@ -11,6 +11,10 @@ public class hello {
         System.out.println(otherDoubled);
         System.out.println(doubled);
 
-
+        String name = "Jake";
+        char firstInitial = name.charAt(0);
+        String lowered = name.toLowerCase();
+        System.out.println(firstInitial);
+        System.out.println(lowered);
     }
 }
